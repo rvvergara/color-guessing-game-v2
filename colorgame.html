@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Color Game Project</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/colorgame.css">
+</head>
+<body>
+
+        <header>
+            <div class="container">
+                <h1><small>THE GREAT</small><br>
+                    RGB(
+                    <span class="rgb" id="red"></span>,
+                    <span class="rgb" id="green"></span>,
+                    <span class="rgb" id="blue"></span>
+                    )<br>
+                    <small>GUESSING GAME</small>
+                </h1>
+            </div>
+        </header>
+        <nav>
+            <div class="container">
+                <div class="col-3" id="new">NEW COLOR</div>
+                <div class="col-3" id="message"></div>
+                <span>
+                    <div class="col-3" id="easy">EASY</div>
+                    <div class="col-3" id="hard">HARD</div>
+                </span>
+            </div>
+        </nav>
+    <article>
+        <div class="container">
+            <div class="col-4 boxes" id="1"></div>
+            <div class="col-4 boxes" id="2"></div>
+            <div class="col-4 boxes" id="3"></div>
+            <div class="col-4 boxes hard" id="4"></div>
+            <div class="col-4 boxes hard" id="5"></div>
+            <div class="col-4 boxes hard" id="6"></div>
+        </div>
+    </article>
+    <script src="js/colorgame.js"></script>
+</body>
+</html>

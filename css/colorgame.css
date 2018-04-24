@@ -1,0 +1,74 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    background:#424242;
+    margin:0;
+
+}
+header{
+    text-align:center;
+    background:#1a72c9;
+}
+
+h1{
+    font-size: 2.75em;
+    margin-top:0;
+    margin-bottom:0;
+    color: white;
+    text-shadow: 2px 2px #232323;
+}
+
+h1 small{
+    font-size: 0.4em;
+}
+
+nav{
+    background: black;
+    color: white;
+}
+
+nav div{
+    display: inline;
+}
+
+nav .container{
+    position: relative;
+    left:29%;
+}
+
+nav span{
+    position: relative;
+    left:12%;
+}
+
+#easy, #hard{
+    margin-left:15px;
+    margin-right:15px;
+}
+
+#message{
+    margin-left:5%;
+}
+
+.container{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxes {
+    background: none;
+    border-radius: 13px;
+}
+
+.hover, .highlight{
+    background:white;
+    color: black;
+}
+
+.col-4{
+    float: left;
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+}
+
